@@ -86,7 +86,7 @@ const Navbar = () => {
             </li>
             <li onClick={() => handleScroll('products')} className='listItem'>
               <Link to='products' spy={true} smooth={true} offset={-50} duration={500}>
-                {translate('e-catalogue')}
+                {translate('e-catalouge')}
               </Link>
             </li>
           </ul>
@@ -106,10 +106,10 @@ const Navbar = () => {
 
         <div onClick={toggleMenu} className='toggleIcon'>
           {isMenuOpen ? (
-            // If the menu is open, show a close icon
+          
             <CgClose className='icon' />
           ) : (
-            // If the menu is closed, show the menu icon
+         
             <CgMenuGridO className='icon' />
           )}
         </div>

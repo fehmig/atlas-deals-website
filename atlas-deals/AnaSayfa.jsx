@@ -7,7 +7,7 @@ import About from '././src/Components/About/About'
 import Products from '././src/Components/Products/Products'
 import HowWeWork from '././src/Components/HowWeWork/HowWeWork'
 import Contact from '././src/Components/Contact/Contact'
-import { Link, Element, scroller } from 'react-scroll';
+import {  Element  } from 'react-scroll';
 import { TranslationProvider } from '././src/Languages/Translation'
 
 const AnaSayfa = () => {

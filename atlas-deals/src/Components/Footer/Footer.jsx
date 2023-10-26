@@ -5,7 +5,7 @@ import {TiSocialFacebook} from 'react-icons/ti'
 import {AiOutlineTwitter} from 'react-icons/ai'
 import {AiFillYoutube} from 'react-icons/ai'
 import {FaPinterestP} from 'react-icons/fa'
-
+import { useTranslation } from '../../Languages/Translation';
 //Imported Images ===>
 import Logo from '../../assets/AtlasStone.png'
 
@@ -17,14 +17,18 @@ const Footer = () => {
   useEffect(()=>{
     Aos.init({duration: 2000})
   }, []) 
+
+  const { translate, setLanguage } = useTranslation();
+
   return (
     <div className='footer'>
-      <div className="sectionContainer container grid">
+      <div className="sectionContainer container grid center">
+
         <div data-aos="fade-up" data-aos-duration="2500" className="gridOne grid">
           <div className="logoDiv">
             <img src={Logo} className='Logo'/>
           </div>
-          <p>Tüm Hakları Saklıdır.</p>
+          <p>   {translate('footer-desc')}</p>
           <div className="socialIcons flex">
             <TiSocialFacebook className='icon'/>
             <AiOutlineTwitter className='icon'/>

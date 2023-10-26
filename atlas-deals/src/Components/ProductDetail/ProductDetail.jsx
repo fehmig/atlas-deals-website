@@ -38,11 +38,7 @@ const ProductDetail = ({ travelers }) => {
 
   
   const { translate, setLanguage } = useTranslation();
-  const [selectedLanguage, setSelectedLanguage] = useState('en');
-  const changeLanguage = (language) => {
-    setSelectedLanguage(language);
-    setLanguage(language);
-  };
+  
   const [activeGemstoneIndex, setActiveGemstoneIndex] = useState(0);
 
   const gemstoneImages = [
