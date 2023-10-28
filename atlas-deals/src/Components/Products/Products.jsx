@@ -31,7 +31,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1, ] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 1',
-     socialLink: 'Details →'
+   
     },
     {
      id: 2,
@@ -39,7 +39,7 @@ const travelers = [
      images: [sehpa2, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 2',
-     socialLink: 'Details → '
+     
     },
     {
      id: 3,
@@ -47,7 +47,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: ' ÜRÜN 3',
-     socialLink: 'Details →'
+  
     },
     {
      id: 4,
@@ -55,7 +55,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 5',
-     socialLink: 'Details →'
+    
     },
     {
      id: 5,
@@ -63,7 +63,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 6',
-     socialLink: 'Details →'
+     
     },
     {
      id: 6,
@@ -71,7 +71,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 7',
-     socialLink: 'Details →'
+     
     },
     {
      id: 7,
@@ -79,7 +79,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 8',
-     socialLink: 'Details →'
+     
     },
     {
      id: 8,
@@ -87,7 +87,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 9',
-     socialLink: 'Details →'
+     
     },
     {
      id: 9,
@@ -95,7 +95,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 10',
-     socialLink: 'Details →'
+     
     },
     {
      id: 10,
@@ -103,7 +103,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 11',
-     socialLink: 'Details →'
+     
     },
     {
      id: 11,
@@ -111,7 +111,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 12',
-     socialLink: 'Details →'
+    
     },
     {
      id: 12,
@@ -119,7 +119,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 4',
-     socialLink: 'Details →'
+ 
     },
     {
      id: 13,
@@ -127,7 +127,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 13',
-     socialLink: 'Details →'
+
     },
     {
      id: 14,
@@ -135,7 +135,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 14',
-     socialLink: 'Details →'
+   
     },
     {
      id: 15,
@@ -143,7 +143,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 15',
-     socialLink: 'Details →'
+    
     },
     {
      id: 16,
@@ -151,7 +151,7 @@ const travelers = [
      images: [sehpa1, sehpa1, sehpa1] ,
      travelerImage: AtlasBeyaz,
      travelerName: 'ÜRÜN 16',
-     socialLink: 'Details →'
+   
     },
   
  ]
@@ -185,7 +185,7 @@ const Products = () => {
                                     </div>
                                     <div className="travelerName">
                                         <span>{travelerName}</span>
-                                        <Link to={`/products/${id}`}> <p>{socialLink}</p></Link>
+                                        <Link to={`/products/${id}`}> <p className='details-font'>{translate('details')}</p></Link>
                                     </div>
                                 </div>
                             </div>

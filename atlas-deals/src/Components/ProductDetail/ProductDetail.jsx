@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { FaWhatsapp } from 'react-icons/fa';
 import Navbar2 from '../NavBar/Navbar2';
+import Navbar from '../NavBar/Navbar';
 import Footer from '../Footer/Footer';
 import '../../main.css';
 import ProductSlider from '../Products/ProductSlider';

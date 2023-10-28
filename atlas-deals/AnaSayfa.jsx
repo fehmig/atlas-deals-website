@@ -9,11 +9,16 @@ import HowWeWork from '././src/Components/HowWeWork/HowWeWork'
 import Contact from '././src/Components/Contact/Contact'
 import {  Element  } from 'react-scroll';
 import { TranslationProvider } from '././src/Languages/Translation'
+import { Helmet } from 'react-helmet'
 
 const AnaSayfa = () => {
   return (
     <TranslationProvider>
     <div>
+        <Helmet>
+          <title> Atlas Stone Furnitures</title>
+          <meta name="description" content="Atlas Stone Furnitures" />
+        </Helmet>
       <Navbar/>
       <Element name="home">
         <Home />

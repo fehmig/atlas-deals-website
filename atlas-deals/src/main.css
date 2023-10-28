@@ -1440,3 +1440,8 @@ h2 {
 .gemstone-options::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.details-font:hover{
+  font-weight: bold;
+  margin-top: 10px;
+}
